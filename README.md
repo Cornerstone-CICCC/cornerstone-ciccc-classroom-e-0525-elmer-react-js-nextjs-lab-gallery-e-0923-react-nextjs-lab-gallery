@@ -55,7 +55,7 @@
 
     You can read more about this in their [documentation](https://nextjs.org/docs/app/getting-started/images#remote-images).
 
-  - If the jsonplaceholder images are not loading, you need to use `.map()` to rebuild the photo object and replace the `url` and `thumbnailUrl` of every photo. Like so:
+- If the jsonplaceholder images are not loading, you need to use `.map()` to rebuild the photo object and replace the `url` and `thumbnailUrl` of every photo. Like so:
 
     ```ts
     const res = await fetch(“https://jsonplaceholder.typicode.com/photos”)

@@ -72,8 +72,8 @@
     
     const photos = data.map(p => {
         …p,
-        url: "https://placehold.co/600",
-        thumbnailUrl: "https://placehold.co/150"
+        url: "https://placehold.co/600.png",
+        thumbnailUrl: "https://placehold.co/150.png"
     })
     ```
 
